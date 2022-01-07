@@ -12,7 +12,7 @@ export const Home = () => {
     <div>
       <Sec1 />
       <Sec2 />
-      <Sec3 />
+      {/* <Sec3 /> */}
       <Sec4 />
       <Sec5 />
       <Sec6 />
