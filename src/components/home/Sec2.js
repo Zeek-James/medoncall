@@ -14,7 +14,7 @@ export const Sec2 = () => {
       display="flex"
       justifyContent="center"
       alignItems="center"
-      sx={{ mb: 25 }}
+      sx={{ mb: 25, px: 2 }}
     >
       <Grid item md={7} sm={12}>
         <Box sx={{ display: { lg: "block", xs: "none" } }}>
@@ -28,7 +28,13 @@ export const Sec2 = () => {
             alt=""
           />
         </Box>
-        <Box sx={{ display: "flex", justifyContent: "flex-end", px: 8 }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: { lg: "flex-end", md: "center" },
+            mr: { lg: 5, md: 0 },
+          }}
+        >
           <img
             style={{
               height: 720,

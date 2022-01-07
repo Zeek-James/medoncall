@@ -6,7 +6,7 @@ import React from "react";
 
 export const Sec4 = () => {
   return (
-    <Box>
+    <Box sx={{ mx: 2 }}>
       <Typography
         sx={{
           fontSize: {

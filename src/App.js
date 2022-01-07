@@ -1,6 +1,6 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 import { Footer } from "./components/Footer";
-// import { Home } from "./components/home";
+import { Home } from "./components/home";
 import { Navbar } from "./components/Navbar";
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Navbar />
       <div style={{ marginTop: 80 }}>
-        {/* <Home /> */}
+        <Home />
         <Footer />
       </div>
     </ThemeProvider>

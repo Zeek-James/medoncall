@@ -36,7 +36,7 @@ export const Sec3 = () => {
   };
 
   return (
-    <Box sx={{ mb: 25 }}>
+    <Box sx={{ mb: 25, mx: 2 }}>
       <Typography
         sx={{
           fontSize: {

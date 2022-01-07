@@ -11,7 +11,7 @@ export const Sec7 = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        mb: { lg: -0.9, xs: 0 },
+        mb: { lg: -0.7, xs: 0 },
       }}
     >
       <Typography
