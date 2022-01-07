@@ -31,8 +31,9 @@ export const Sec2 = () => {
         <Box
           sx={{
             display: "flex",
-            justifyContent: { lg: "flex-end", md: "center" },
+            justifyContent: { lg: "flex-end", xs: "center" },
             mr: { lg: 5, md: 0 },
+            mb: 5,
           }}
         >
           <img
