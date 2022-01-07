@@ -56,7 +56,8 @@ export const Sec5 = () => {
               textAlign: "center",
               borderRadius: "20px",
               padding: "30px",
-              width: "250px",
+              maxWidth: "250px",
+              minWidth: "200px",
             }}
           >
             <MedicationLiquidIcon
@@ -92,7 +93,8 @@ export const Sec5 = () => {
               textAlign: "center",
               borderRadius: "20px",
               padding: "30px",
-              width: "265px",
+              minWidth: "250px",
+              maxWidth: "265px",
             }}
           >
             <MedicalServicesIcon

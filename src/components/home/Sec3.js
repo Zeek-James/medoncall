@@ -61,7 +61,7 @@ export const Sec3 = () => {
           flexDirection="column"
           // sx={{ mx: 2 }}
         >
-          <Box sx={{ width: 450, mb: 8 }}>
+          <Box sx={{ maxWidth: 450, mb: 8 }}>
             <Box onMouseEnter={handleRadiant} onMouseLeave={handleMouseLeave}>
               <Box sx={{ display: "flex" }}>
                 <Typography
@@ -89,7 +89,7 @@ export const Sec3 = () => {
               </Typography>
             </Box>
           </Box>
-          <Box sx={{ width: 450, mb: 8 }}>
+          <Box sx={{ maxWidth: 450, mb: 8 }}>
             <Box>
               <Box sx={{ display: "flex" }}>
                 <Typography
@@ -109,7 +109,7 @@ export const Sec3 = () => {
               </Typography>
             </Box>
           </Box>
-          <Box sx={{ width: 450 }}>
+          <Box sx={{ maxWidth: 450 }}>
             <Box>
               <Box sx={{ display: "flex" }}>
                 <Typography
