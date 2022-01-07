@@ -54,7 +54,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Navbar />
       <div style={{ marginTop: 80 }}>
-        <Home />
+        {/* <Home /> */}
         <Footer />
       </div>
     </ThemeProvider>
